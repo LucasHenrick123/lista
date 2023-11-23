@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main (){
+char letra;
+for( int nome =0; nome < 4; nome +=1 ){
+	cin>> letra;
+	if(letra == 'L'){
+	   cout<< "Lucas";
+	}
+	 if( letra == 'V' ){
+	cout<< "Virgil";
+	 }else{
+	 	if( letra == 'F'){
+	 	cout<< "Fernanda";
+		 } 
+	 }
+	
+	cout<< "\n";
+}
+return 0;
+}
